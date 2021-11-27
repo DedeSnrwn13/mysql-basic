@@ -17,6 +17,8 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
     <title>Latihan CRUD</title>
 </head>
 <body>
+    <a href="add.php">Tambah Data</a>
+    <br><br>
     <table border="1">
         <thead>
             <tr>
